@@ -1,0 +1,39 @@
+.container .section .outercard {
+  height: 128px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2);
+}
+
+.container .section .outercard .card-body .innercard {
+  height: 128px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2);
+  top: -13%;
+}
+
+.container .circles {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container .circles .circle {
+  box-shadow: -10px -25px 5px rgba(203, 131, 235, 0.6), 5px 10px 5px rgba(94, 238, 102, 0.8), 5px 10px 5px rgba(236, 138, 73, 0.6);
+  -moz-box-shadow: 0px -10px 15px rgba(203, 131, 235, 0.6), 5px 10px 5px rgba(94, 238, 102, 0.6), 5px 10px 5px rgba(236, 138, 73, 0.6);
+  -webkit-box-shadow: 0px -10px 5px rgba(203, 131, 235, 0.6), -10px 10px 5px rgba(94, 238, 102, 0.6), 5px 10px 5px rgba(236, 138, 73, 0.6);
+  -o-box-shadow: 0px -10px 5px rgba(203, 131, 235, 0.6), 5px 10px 5px rgba(94, 238, 102, 0.6), 5px 10px 5px rgba(236, 138, 73, 0.6);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.container .circles .inner {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  line-height: 0px;
+}
+/*# sourceMappingURL=service1.css.map */
